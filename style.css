@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  border: 0.5vh solid rgb(0, 0, 0);
+  background: rgb(0, 128, 2);
+  overflow: hidden;
+  font-size: 4vh;
+  font-family:'Lucida Grande';
+  font-weight: 400;
+}
+
+header {
+  background: rgb(128, 128, 0);
+  height: 8vh;
+  border-bottom: 0.5vh solid rgb(0, 0, 0);
+}
