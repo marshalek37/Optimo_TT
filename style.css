@@ -23,10 +23,20 @@ header {
   border: 0.5vh solid rgb(0, 0, 0);
   transform: rotate(45deg);
   margin: 18vh 0 0 4vh;
+  transition: 0.2s;
+}
+
+.square:hover {
+  transform: rotate(0);
+  background: rgb(255, 255, 255);
 }
 
 .square--1 {
   margin: 4vh 0 0 0;
+}
+
+.square--1:hover {
+  background: rgb(0, 0, 0);
 }
 
 .rectangle {
@@ -34,6 +44,12 @@ header {
   border: 0.5vh solid rgb(0, 0, 0);
   height: 1vh;
   width: 14vh;
+  transition: .2s;
+}
+
+.rectangle:hover {
+  opacity: 0.5;
+  scale: 1.2;
 }
 
 .rectangle--big {
@@ -63,6 +79,12 @@ header {
   }
 }
 
+.rectangle--big:hover .rectangle__text {
+  transform: rotate(360deg);
+  transition: transform .2s;
+  color:rgb(254, 0, 0);
+}
+
 .rectangle__text {
   margin-top: 4vh;
 }
@@ -73,6 +95,12 @@ header {
   height: 10vh;
   width: 11vh;
   border-radius: 50%;
+  transition: .2s;
+}
+
+.oval:hover {
+  transform: translateY(4vh);
+  height: 11vh;
 }
 
 .items__container {
@@ -118,7 +146,7 @@ header {
 }
 
 @media (min-width: 901px) {
-  
+
   .block__container {
     flex-direction: row;
     gap: 20vh;
