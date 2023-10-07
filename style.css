@@ -40,3 +40,11 @@ header {
   height: 34vh;
   width: 18vh;
 }
+
+.oval {
+  background: rgb(0, 128, 128);
+  border: 0.5vh solid rgb(0, 0, 0);
+  height: 10vh;
+  width: 11vh;
+  border-radius: 50%;
+}
