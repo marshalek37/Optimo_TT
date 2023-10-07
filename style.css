@@ -61,6 +61,12 @@ header {
   gap: 4vh;
 }
 
+.items__container--2 {
+  margin: 4vh 0 0 6vh;
+  display: flex;
+  text-align: center;
+}
+
 .rectangle__wrapper {
   display: flex;
   flex-direction: column;
