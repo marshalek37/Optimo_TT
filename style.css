@@ -54,3 +54,16 @@ header {
 .items__container {
   display: flex;
 }
+
+.items__container--1 {
+  display: flex;
+  margin: 6vh 0 0 1vh;
+  gap: 4vh;
+}
+
+.rectangle__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4vh
+}
