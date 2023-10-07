@@ -22,9 +22,11 @@ header {
   height: 14vh;
   border: 0.5vh solid rgb(0, 0, 0);
   transform: rotate(45deg);
+  margin: 18vh 0 0 4vh;
 }
 
 .square--1 {
+  margin: 4vh 0 0 0;
 }
 
 .rectangle {
@@ -47,4 +49,8 @@ header {
   height: 10vh;
   width: 11vh;
   border-radius: 50%;
+}
+
+.items__container {
+  display: flex;
 }
