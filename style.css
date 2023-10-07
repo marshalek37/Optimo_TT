@@ -15,3 +15,14 @@ header {
   height: 8vh;
   border-bottom: 0.5vh solid rgb(0, 0, 0);
 }
+
+.square {
+  background: rgb(254, 0, 0);
+  width: 14vh;
+  height: 14vh;
+  border: 0.5vh solid rgb(0, 0, 0);
+  transform: rotate(45deg);
+}
+
+.square--1 {
+}
