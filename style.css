@@ -26,3 +26,17 @@ header {
 
 .square--1 {
 }
+
+.rectangle {
+  background: rgb(19, 0, 255);
+  border: 0.5vh solid rgb(0, 0, 0);
+  height: 1vh;
+  width: 14vh;
+}
+
+.rectangle--big {
+  background: rgb(19, 0, 255);
+  border: 0.5vh solid rgb(0, 0, 0);
+  height: 34vh;
+  width: 18vh;
+}
