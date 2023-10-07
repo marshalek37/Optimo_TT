@@ -43,6 +43,16 @@ header {
   width: 18vh;
 }
 
+@media (min-width: 583px) and (max-width: 900px) {
+
+  .rectangle--big {
+    background: rgb(199, 55, 56);
+    height: 80vh;
+    width: 24vh;
+    margin-right: 4vh;
+  }
+}
+
 .rectangle__text {
   margin-top: 4vh;
 }
@@ -71,9 +81,23 @@ header {
   text-align: center;
 }
 
+@media (min-width: 583px) and (max-width: 900px) {
+
+  .items__container--2 {
+    margin-top: 8vh;
+  }
+}
+
 .block__container {
   display: flex;
   flex-direction: column;
+}
+
+@media (min-width: 583px) and (max-width: 900px) {
+
+  .block__container {
+    gap: 34vh;
+  }
 }
 
 .rectangle__wrapper {
@@ -81,4 +105,12 @@ header {
   flex-direction: column;
   justify-content: center;
   gap: 4vh
+}
+
+@media (min-width: 583px) {
+  
+  .master__container {
+    display: flex;
+    justify-content: space-between;
+  }
 }
